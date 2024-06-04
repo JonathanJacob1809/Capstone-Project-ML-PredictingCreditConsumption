@@ -5,6 +5,7 @@
 **Business Objective**:
 
 The primary objective of this project is to develop a predictive model for estimating the credit card consumption of customers for a leading bank. By accurately predicting credit card spending, the bank aims to enhance its customer relationship management, tailor marketing strategies, improve risk management, and optimize credit limits offered to customers.
+
 Methodology:
 
 The analysis and model building process is structured as follows:
