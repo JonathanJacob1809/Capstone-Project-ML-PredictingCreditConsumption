@@ -1,4 +1,4 @@
-# Capstone-Project-ML-PredictingCreditConsumption
+# Capstone-Project-ML-Predicting Credit Card Consumption
 
 **Model Documentation: Predicting Credit Card Consumption of Customers**
 
@@ -36,12 +36,17 @@ The analysis and model building process is structured as follows:
 **Modeled Results and Insights**:
 
 •	Model Performance: The Random Forest Regressor outperformed other models with the lowest RMSPE. This implies that the model predictions closely align with actual consumption values.
+
 •	RMSPE Interpretation: An RMSPE close to 0 indicates high predictive accuracy. In this case, the Random Forest model's RMSPE suggests that on average, the predictions deviate by a relatively small percentage from the actual values.
 
 **Recommendations**:
 
 •	**Model Deployment**: The Random Forest model should be deployed for predicting credit card consumption in real-time applications.
+
 •	**Feature Enhancement**: Continually enhance the features by incorporating more customer behavior data and transactional information to further improve model accuracy.
+
 •	**Customer Segmentation**: Use the predictions to segment customers based on their consumption patterns and tailor marketing strategies accordingly.
+
 •	**Risk Management**: Integrate the model predictions into the bank’s risk management framework to better assess credit risk and optimize credit limits.
+
 •	**Continuous Monitoring**: Regularly monitor model performance and retrain with new data to maintain accuracy over time.
