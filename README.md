@@ -12,27 +12,27 @@ The analysis and model building process is structured as follows:
 
 1.	**Data Collection and Preprocessing**:
 - Data Sources: The project utilizes three datasets: ‘CreditConsumptionData’, ‘CustomerBehaviorData’, and ‘CustomerDemographics’.
-- Merging Data: The datasets are merged on the customer ID to form a comprehensive dataset.
+- Merging Data: The datasets were merged on the customer ID to form a comprehensive dataset.
 - Missing Values: Initially, the dataset had missing values for the ‘cc_cons’ (credit card consumption) variable. A separate DataFrame ‘pred_df’ is created for rows with missing ‘cc_cons’ values for prediction purposes.
-- Dropping Insignificant Columns: After merging, redundant columns and missing values not related to the prediction target are dropped.
+- Dropping Insignificant Columns: After merging, redundant columns and missing values not related to the prediction target were dropped.
   
 2.	**Exploratory Data Analysis (EDA)**:
-- Numerical and Categorical Variables: The analysis starts with the exploration of numerical and categorical variables to understand the data distribution and identify any potential outliers or trends.
+- Numerical and Categorical Variables: The analysis started with the exploration of numerical and categorical variables to understand the data distribution and identify any potential outliers or trends.
   
 3.	**Feature Engineering**:
-- Creating New Features: Relevant features are created or transformed using RobustScaler for numerical columns and OneHotEncoder for categorical columns to enhance the model's predictive power.
+- Creating New Features: Relevant features werw created or transformed using RobustScaler for numerical columns and OneHotEncoder for categorical columns to enhance the model's predictive power.
 
 4.	**Model Building**:
 - **Splitting Data**: The dataset is split into training and test sets.
-- **Model Selection**: Three models are considered: Linear Regression, Decision Tree Regressor, and Random Forest Regressor.
-- **Pipeline Creation**: Pipelines are created for each model to streamline the training process and include steps like scaling and fitting the model.
-- **Performance Evaluation**: **Root Mean Square Percentage Error (RMSPE)** is used to evaluate the models.
+- **Model Selection**: Three models were considered: Linear Regression, Decision Tree Regressor, and Random Forest Regressor.
+- **Pipeline Creation**: Pipelines were created for each model to streamline the training process and included steps like scaling and fitting the model.
+- **Performance Evaluation**: **Root Mean Square Percentage Error (RMSPE)** was used to evaluate the models.
 
 5.	**Model Evaluation**:
 - RMSPE Metrics: All three models demonstrated low RMSPE values, indicating good predictive performance. The Random Forest Regressor had the lowest **RMSPE (8.24)**, making it the best choice among the three.
 
 6.	**Prediction**:
-- Predicting Missing Values: Using the chosen Random Forest Regressor, predictions are made for the missing ‘cc_cons’ values in ‘pred_df’.
+- Predicting Missing Values: Using the chosen Random Forest Regressor, predictions were made for the missing ‘cc_cons’ values in ‘pred_df’.
 
 **Modeled Results and Insights**:
 
