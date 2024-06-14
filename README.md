@@ -20,7 +20,7 @@ The analysis and model building process is structured as follows:
 - Numerical and Categorical Variables: The analysis started with the exploration of numerical and categorical variables to understand the data distribution and identify any potential outliers or trends.
   
 3.	**Feature Engineering**:
-- Creating New Features: Relevant features werw created or transformed using RobustScaler for numerical columns and OneHotEncoder for categorical columns to enhance the model's predictive power.
+- Creating New Features: Relevant features were created or transformed using RobustScaler for numerical columns and OneHotEncoder for categorical columns to enhance the model's predictive power.
 
 4.	**Model Building**:
 - **Splitting Data**: The dataset is split into training and test sets.
